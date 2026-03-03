@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4dqn4ma=!vhcl)m3(m7_jpv=+fot3v!%*n!mx%1e&3_87_7rv#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://weather-project-szrg.onrender.com/]
 
 
 # Application definition
@@ -125,3 +125,4 @@ STATICFILES_DIR=[
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
